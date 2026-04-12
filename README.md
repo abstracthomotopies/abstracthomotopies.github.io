@@ -1,1 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abstract Homotopies | My Activities</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Your Custom Color Scheme and Typography */
+        :root {
+            --primary-color: #7F1146; /* The deep burgundy from your Google Site */
+            --secondary-color: #c12872; /* The lighter pink hover state */
+            --background-color: #f9f9f9;
+            --text-color: #212121;
+            --heading-font: 'Merriweather', serif;
+            --body-font: 'PT Sans', sans-serif;
+        }
 
+        body {
+            font-family: var(--body-font);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            flex-wrap: wrap;
+        }
+
+        .site-title {
+            font-family: var(--heading-font);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 700;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Hero/Header Section */
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+            background-image: linear-gradient(rgba(127, 17, 70, 0.9), rgba(127, 17, 70, 0.9)), url('https://ssl.gstatic.com/atari/images/simple-header-blended-small.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        header h1 {
+            font-family: var(--heading-font);
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 1rem;
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .quote-block {
+            text-align: center;
+            font-family: var(--heading-font);
+            font-size: 1.3rem;
+            font-style: italic;
+            color: #555;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        /* Content Sections */
+        .content-section {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 2.5rem;
+            border-left: 6px solid var(--primary-color);
+        }
+
+        .section-category {
+            font-family: var(--heading-font);
+            font-size: 1.2rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+
+        .content-section h2 {
+            font-family: var(--heading-font);
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-section p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-section a {
+            color: var(--primary-color);
+            font-weight: bold;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        .content-section a:hover {
+            border-bottom: 1px solid var(--primary-color);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 4rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+            .nav-links {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="site-title">The Atheist Scholar</a>
+        <div class="nav-links">
+            <a href="activities.html" style="color: var(--primary-color);">Activities</a>
+            <a href="#">Teaching</a>
+            <a href="#">Literature</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>My Activities</h1>
+        <p>The Atheist Scholar</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="content-section">
+            <span class="section-category">Academic Activity</span>
+            <h2>Talks and Teaching</h2>
+            <p>I teach foundations of mathematics to maths students of various levels at occasional events. See <a href="https://abstracthomotopies.github.io/teaching.html">here</a>.</p>
+        </section>
+
+        <section class="content-section">
+            <span class="section-category">Academic Activity</span>
+            <h2>Effort 2: MIS in India</h2>
+            <p>I am an organizer of a continuously progressing modern instructional school, the <a href="http://gstmath.wordpress.com" target="_blank">Grothendieck School of Thoughts</a> based in India.</p>
+        </section>
+
+        <section class="content-section">
+            <span class="section-category">Social Activity</span>
+            <h2>Effort 3: Scholarship to Students</h2>
+            <p>I am the current chairperson of a non-governmental scholarship organization, named <a href="https://sites.google.com/view/batch-69-foundation/" target="_blank">Batch 69 Foundation</a>, based in West Bengal, India.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 The Atheist Scholar. Hosted on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
