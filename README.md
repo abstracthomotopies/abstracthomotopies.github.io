@@ -196,7 +196,7 @@
     <div class="container">
 
         <div class="quote-block">
-            "Aphorism of an Atheist Scholar: Mission that I have undertaken to seek for a betterment of life."
+            "Mission that I have undertaken to seek for a betterment of life:"
         </div>
         
         <section class="content-section">
