@@ -183,7 +183,6 @@
         <div class="nav-links">
             <a href="activities.html" style="color: var(--primary-color);">Activities</a>
             <a href="#">Teaching</a>
-            <a href="index.html">Mathematics</a>
             <a href="#">Literature</a>
         </div>
     </nav>
@@ -194,27 +193,23 @@
     </header>
 
     <div class="container">
-
-        <div class="quote-block">
-            "Mission that I have undertaken to seek for a betterment of life:"
-        </div>
         
         <section class="content-section">
             <span class="section-category">Academic Activity</span>
-            <h2>Effort 1: Teaching</h2>
-            <p>Teaching is a necessary task for an educated being. I teach foundations of mathematics to maths students of various levels at occasional events. See <a href="#">here</a>.</p>
+            <h2>Talks and Teaching</h2>
+            <p>I teach foundations of mathematics to maths students of various levels at occasional events. See <a href="https://abstracthomotopies.github.io/teaching.html">here</a>.</p>
         </section>
 
         <section class="content-section">
             <span class="section-category">Academic Activity</span>
             <h2>Effort 2: MIS in India</h2>
-            <p>Education has to be a collective effort, someone has to share it. I am the organizer of a continuously progressing modern instructional school, the <a href="http://gstmath.wordpress.com" target="_blank">Grothendieck School of Thoughts</a> based in India.</p>
+            <p>I am an organizer of a continuously progressing modern instructional school, the <a href="http://gstmath.wordpress.com" target="_blank">Grothendieck School of Thoughts</a> based in India.</p>
         </section>
 
         <section class="content-section">
             <span class="section-category">Social Activity</span>
             <h2>Effort 3: Scholarship to Students</h2>
-            <p>Helping the poor is an essential civilized human behavior. I am the current chairperson of a non-governmental scholarship organization, named <a href="https://sites.google.com/view/batch-69-foundation/" target="_blank">Batch 69 Foundation</a>, based in West Bengal, India.</p>
+            <p>I am the current chairperson of a non-governmental scholarship organization, named <a href="https://sites.google.com/view/batch-69-foundation/" target="_blank">Batch 69 Foundation</a>, based in West Bengal, India.</p>
         </section>
 
     </div>
