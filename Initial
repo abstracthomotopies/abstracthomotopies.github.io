@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abstract Homotopies | Mathematics</title>
+    <title>The Atheist Scholar | My Activities</title>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <style>
         /* Your Custom Color Scheme and Typography */
@@ -71,6 +71,9 @@
             color: white;
             text-align: center;
             padding: 4rem 1rem;
+            background-image: linear-gradient(rgba(127, 17, 70, 0.9), rgba(127, 17, 70, 0.9)), url('https://ssl.gstatic.com/atari/images/simple-header-blended-small.png');
+            background-size: cover;
+            background-position: center;
         }
 
         header h1 {
@@ -93,6 +96,19 @@
             padding: 0 1.5rem;
         }
 
+        .quote-block {
+            text-align: center;
+            font-family: var(--heading-font);
+            font-size: 1.3rem;
+            font-style: italic;
+            color: #555;
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
         /* Content Sections */
         .content-section {
             background: white;
@@ -100,7 +116,17 @@
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0,0,0,0.05);
             margin-bottom: 2.5rem;
-            border-top: 4px solid var(--primary-color);
+            border-left: 6px solid var(--primary-color);
+        }
+
+        .section-category {
+            font-family: var(--heading-font);
+            font-size: 1.2rem;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+            display: block;
         }
 
         .content-section h2 {
@@ -116,21 +142,16 @@
             margin-bottom: 1.5rem;
         }
 
-        /* Buttons */
-        .btn {
-            display: inline-block;
-            background-color: var(--primary-color);
-            color: white;
-            padding: 0.8rem 1.5rem;
+        .content-section a {
+            color: var(--primary-color);
+            font-weight: bold;
             text-decoration: none;
-            font-weight: 700;
-            border-radius: 4px;
-            transition: background-color 0.3s;
-            margin-top: 1rem;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
         }
 
-        .btn:hover {
-            background-color: var(--secondary-color);
+        .content-section a:hover {
+            border-bottom: 1px solid var(--primary-color);
         }
 
         /* Footer */
@@ -158,29 +179,52 @@
 <body>
 
     <nav>
-        <a href="#" class="site-title">The Atheist Scholar</a>
+        <a href="index.html" class="site-title">The Atheist Scholar</a>
         <div class="nav-links">
-            <a href="#">Activities</a>
+            <a href="activities.html" style="color: var(--primary-color);">Activities</a>
             <a href="#">Teaching</a>
             <a href="#">History</a>
             <a href="#">Psychology</a>
             <a href="#">Philosophy</a>
-            <a href="#" style="color: var(--primary-color);">Mathematics</a>
+            <a href="index.html">Mathematics</a>
             <a href="#">Literature</a>
         </div>
     </nav>
 
     <header>
-        <h1>Mathematics: A Proof</h1>
-        <p>Exploring the philosophical and historical depths of mathematics.</p>
+        <h1>My Activities</h1>
+        <p>The Atheist Scholar</p>
     </header>
 
     <div class="container">
+
+        <div class="quote-block">
+            "Aphorism of an Atheist Scholar: Mission that I have undertaken to seek for a betterment of life."
+        </div>
         
         <section class="content-section">
-            <h2>Modern Mathematics</h2>
-            <p>The term modern mathematics, in the title, is supposed to mean mathematics that we study today, which is an inside-out view of the subject. Often while doing regular-day mathematics we consider mathematical things (something, some specified data maybe with some structure or symmetry or any other property for that matter). Then we consider studying the data inside each such thing, one by one, and then looking at how that data can be transferred between them via something called mappings.</p>
-            
-            <p>While in the modern view of mathematics we are privileged to have a philosophy of an outside-in view. Where we do not specify what data is there inside such a thing, but instead specify mappings coming in and going out of that thing. This is similar to a social belief that <em>"more than what we have (in this case the data inside) what characterizes us better is what we do for the society (the mappings in this case)"</em>.</p>
-            
-            <p>Such a point of view is formally known as <strong>"the abstract nonsense of mathematics"</strong> and is divided into pieces like <strong>"Category theory"</strong>, <strong>"Homotopy Theory"</strong> and <strong>"Type theory"</strong>. My research interest lies in studying the connections between those pieces, with the hope that this would improve our view
+            <span class="section-category">Academic Activity</span>
+            <h2>Effort 1: Teaching</h2>
+            <p>Teaching is a necessary task for an educated being. I teach foundations of mathematics to maths students of various levels at occasional events. See <a href="#">here</a>.</p>
+        </section>
+
+        <section class="content-section">
+            <span class="section-category">Academic Activity</span>
+            <h2>Effort 2: MIS in India</h2>
+            <p>Education has to be a collective effort, someone has to share it. I am the organizer of a continuously progressing modern instructional school, the <a href="http://gstmath.wordpress.com" target="_blank">Grothendieck School of Thoughts</a> based in India.</p>
+        </section>
+
+        <section class="content-section">
+            <span class="section-category">Social Activity</span>
+            <h2>Effort 3: Scholarship to Students</h2>
+            <p>Helping the poor is an essential civilized human behavior. I am the current chairperson of a non-governmental scholarship organization, named <a href="https://sites.google.com/view/batch-69-foundation/" target="_blank">Batch 69 Foundation</a>, based in West Bengal, India.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 The Atheist Scholar. Hosted on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
