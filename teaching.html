@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Atheist Scholar | Teaching</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Your Custom Color Scheme and Typography */
+        :root {
+            --primary-color: #7F1146; /* The deep burgundy from your Google Site */
+            --secondary-color: #c12872; /* The lighter pink hover state */
+            --background-color: #f9f9f9;
+            --text-color: #212121;
+            --heading-font: 'Merriweather', serif;
+            --body-font: 'PT Sans', sans-serif;
+        }
+
+        body {
+            font-family: var(--body-font);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+        }
+
+        /* Navigation Bar */
+        nav {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            flex-wrap: wrap;
+        }
+
+        .site-title {
+            font-family: var(--heading-font);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 700;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Hero/Header Section */
+        header {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 4rem 1rem;
+            background-image: linear-gradient(rgba(127, 17, 70, 0.9), rgba(127, 17, 70, 0.9)), url('https://ssl.gstatic.com/atari/images/simple-header-blended-small.png');
+            background-size: cover;
+            background-position: center;
+        }
+
+        header h1 {
+            font-family: var(--heading-font);
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: -0.5px;
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Content Sections */
+        .content-section {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 2.5rem;
+            border-left: 6px solid var(--primary-color);
+        }
+
+        .section-category {
+            font-family: var(--heading-font);
+            font-size: 1.6rem;
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            display: block;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 0.5rem;
+        }
+
+        .item-heading {
+            font-family: var(--heading-font);
+            color: #333;
+            font-size: 1.3rem;
+            margin-top: 1.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .content-section p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .content-section a {
+            color: var(--primary-color);
+            font-weight: bold;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border-color 0.3s;
+        }
+
+        .content-section a:hover {
+            border-bottom: 1px solid var(--primary-color);
+        }
+
+        .btn-link {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white !important;
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-right: 0.5rem;
+            margin-bottom: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .btn-link:hover {
+            background-color: var(--secondary-color);
+            border-bottom: none !important;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 4rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+            .nav-links {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="site-title">The Atheist Scholar</a>
+        <div class="nav-links">
+            <a href="activities.html">Activities</a>
+            <a href="teaching.html" style="color: var(--primary-color);">Teaching</a>
+            <a href="#">History</a>
+            <a href="#">Psychology</a>
+            <a href="#">Philosophy</a>
+            <a href="index.html">Mathematics</a>
+            <a href="#">Literature</a>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Teaching</h1>
+    </header>
+
+    <div class="container">
+
+        <section class="content-section">
+            <span class="section-category">Current Courses</span>
+            
+            <h3 class="item-heading">1. Category Theory</h3>
+            <p>I am currently serving as a teaching associate an NPTEL course on Category Theory. A link to the course is given <a href="https://onlinecourses.nptel.ac.in/noc24_ma63/course" target="_blank">here</a>.</p>
+        </section>
+
+        <section class="content-section">
+            <span class="section-category">Past Courses</span>
+            
+            <h3 class="item-heading">1. Set Theory and Logic</h3>
+            <p>I have worked as a teaching associate for the Set theory and logic course at IISER Mohali in the Autumn semester 2023.</p>
+            <a href="https://sites.google.com/site/vaibhavvaish/teaching/2023-mth303n?" class="btn-link" target="_blank">Set theory and logic MTH303</a>
+        </section>
+
+        <section class="content-section">
+            <span class="section-category">Talks / Lectures Delivered</span>
+            
+            <h3 class="item-heading">1. Modern Homotopy Theory</h3>
+            <p>I have delivered a few lectures on an online series on <em>Modern Homotopy Theory</em>. Here I talk about abstract and concrete homotopy theories, in the form of abstract categorical language. This way one can prove that most of our known old mathematical theories are actually Homotopy theories inherently. To find more about it visit the webpage below.</p>
+            <a href="https://gstmath.wordpress.com/2022/10/15/modern-homotopy-theory/" class="btn-link" target="_blank">Modern Homotopy Theory</a>
+
+            <h3 class="item-heading">2. ISLA 2022</h3>
+            <p><em>Indian School for Logic and its Application</em>, ISLA 2022 was an international summer school on Logic and Dualities, organized by IIT Kanpur in May 2022. I have delivered 3 introductory lectures on basic category theory with an introduction to the notion of categorical dualities. This was a wonderful experience to present before such a diverse audience, starting from Philosophy, logic, mathematics, and Topology to Computer science students from all over the globe. The details of the school can be found below.</p>
+            <a href="https://sites.google.com/view/isla-2022-iitk/speakers#h.klzr8pmp5gx7" class="btn-link" target="_blank">ISLA 2022</a>
+            <a href="https://youtube.com/clip/UgkxC6x24oKoAlxj0U0OEmuO5h-4tEfNNU3r" class="btn-link" target="_blank">My Lectures at ISLA</a>
+
+            <h3 class="item-heading">3. GSG talk at IISER Mohali</h3>
+            <p>I delivered a talk on Topology in Higher Category Theory in the GSG seminar at IISER Mohali, on October 17, 2022. In this talk, I talked about how topologically enriched categories can serve the purpose of models of (∞, 1)-categories. Find out more about my talk at IISER GSG website below.</p>
+            <a href="https://sites.google.com/view/iiserm-gsg/home" class="btn-link" target="_blank">IISERM GSG</a>
+
+            <h3 class="item-heading">4. Internal logic of Grothendieck toposes</h3>
+            <p>This was a small course on Grothendieck toposes, at the Indian Institute of Science Education and Research Pune, in the summer of 2020. I introduced the notion of elementary toposes and gave a proof of the fact that Grothendieck toposes are elementary. Unfortunately, there is no record of the materials for the course.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 The Atheist Scholar. Hosted on GitHub Pages.</p>
+    </footer>
+
+</body>
+</html>
