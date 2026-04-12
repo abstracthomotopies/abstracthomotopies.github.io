@@ -3,40 +3,184 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to DRDM</title>
+    <title>Abstract Homotopies | Mathematics</title>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        /* Your Custom Color Scheme and Typography */
+        :root {
+            --primary-color: #7F1146; /* The deep burgundy from your Google Site */
+            --secondary-color: #c12872; /* The lighter pink hover state */
+            --background-color: #f9f9f9;
+            --text-color: #212121;
+            --heading-font: 'Merriweather', serif;
+            --body-font: 'PT Sans', sans-serif;
+        }
+
         body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
+            font-family: var(--body-font);
+            color: var(--text-color);
+            line-height: 1.6;
             margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
         }
-        .container {
+
+        /* Navigation Bar */
+        nav {
+            background-color: white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            flex-wrap: wrap;
+        }
+
+        .site-title {
+            font-family: var(--heading-font);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-color);
+            text-decoration: none;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-color);
+            font-weight: 700;
+            font-size: 0.95rem;
+            transition: color 0.3s;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Hero/Header Section */
+        header {
+            background-color: var(--primary-color);
+            color: white;
             text-align: center;
+            padding: 4rem 1rem;
+        }
+
+        header h1 {
+            font-family: var(--heading-font);
+            font-size: 3rem;
+            margin: 0;
+            letter-spacing: -0.5px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 1rem;
+        }
+
+        /* Main Content Container */
+        .container {
+            max-width: 900px;
+            margin: 3rem auto;
+            padding: 0 1.5rem;
+        }
+
+        /* Content Sections */
+        .content-section {
             background: white;
-            padding: 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            margin-bottom: 2.5rem;
+            border-top: 4px solid var(--primary-color);
         }
-        h1 {
-            color: #0056b3;
+
+        .content-section h2 {
+            font-family: var(--heading-font);
+            color: var(--primary-color);
+            font-size: 2rem;
+            margin-top: 0;
+            margin-bottom: 1.5rem;
         }
-        p {
-            font-size: 1.2em;
+
+        .content-section p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+
+        /* Buttons */
+        .btn {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 0.8rem 1.5rem;
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+            margin-top: 1rem;
+        }
+
+        .btn:hover {
+            background-color: var(--secondary-color);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 4rem;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+                gap: 1rem;
+            }
+            .nav-links {
+                justify-content: center;
+            }
         }
     </style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>Welcome to DRDM's Homepage</h1>
-        <p>This site is hosted on GitHub Pages!</p>
-    </div>
+    <nav>
+        <a href="#" class="site-title">The Atheist Scholar</a>
+        <div class="nav-links">
+            <a href="#">Activities</a>
+            <a href="#">Teaching</a>
+            <a href="#">History</a>
+            <a href="#">Psychology</a>
+            <a href="#">Philosophy</a>
+            <a href="#" style="color: var(--primary-color);">Mathematics</a>
+            <a href="#">Literature</a>
+        </div>
+    </nav>
 
-</body>
-</html>
+    <header>
+        <h1>Mathematics: A Proof</h1>
+        <p>Exploring the philosophical and historical depths of mathematics.</p>
+    </header>
+
+    <div class="container">
+        
+        <section class="content-section">
+            <h2>Modern Mathematics</h2>
+            <p>The term modern mathematics, in the title, is supposed to mean mathematics that we study today, which is an inside-out view of the subject. Often while doing regular-day mathematics we consider mathematical things (something, some specified data maybe with some structure or symmetry or any other property for that matter). Then we consider studying the data inside each such thing, one by one, and then looking at how that data can be transferred between them via something called mappings.</p>
+            
+            <p>While in the modern view of mathematics we are privileged to have a philosophy of an outside-in view. Where we do not specify what data is there inside such a thing, but instead specify mappings coming in and going out of that thing. This is similar to a social belief that <em>"more than what we have (in this case the data inside) what characterizes us better is what we do for the society (the mappings in this case)"</em>.</p>
+            
+            <p>Such a point of view is formally known as <strong>"the abstract nonsense of mathematics"</strong> and is divided into pieces like <strong>"Category theory"</strong>, <strong>"Homotopy Theory"</strong> and <strong>"Type theory"</strong>. My research interest lies in studying the connections between those pieces, with the hope that this would improve our view
