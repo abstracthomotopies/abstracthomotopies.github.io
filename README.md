@@ -179,10 +179,10 @@
 <body>
 
     <nav>
-        <a href="index.html" class="site-title">The Atheist Scholar</a>
+        <a href="activities.html" class="site-title">The Atheist Scholar</a>
         <div class="nav-links">
             <a href="activities.html" style="color: var(--primary-color);">Activities</a>
-            <a href="#">Teaching</a>
+            <a href="teaching.html">Teaching</a>
             <a href="#">Literature</a>
         </div>
     </nav>
