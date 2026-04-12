@@ -183,9 +183,6 @@
         <div class="nav-links">
             <a href="activities.html" style="color: var(--primary-color);">Activities</a>
             <a href="#">Teaching</a>
-            <a href="#">History</a>
-            <a href="#">Psychology</a>
-            <a href="#">Philosophy</a>
             <a href="index.html">Mathematics</a>
             <a href="#">Literature</a>
         </div>
