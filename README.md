@@ -214,7 +214,7 @@
     </div>
 
     <footer>
-        <p>&copy; 2026 The Atheist Scholar. Hosted on GitHub Pages.</p>
+        <p>&copy; 2026 The Atheist Scholar.</p>
     </footer>
 
 </body>
