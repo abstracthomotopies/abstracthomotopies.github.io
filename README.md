@@ -188,7 +188,6 @@
 
     <header>
         <h1>My Activities</h1>
-        <p>The Atheist Scholar</p>
     </header>
 
     <div class="container">
